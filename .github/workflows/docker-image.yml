@@ -7,7 +7,6 @@ on:
     branches: [ "master" ]
 
 jobs:
-
   build and push docker image:
     name: Push Docker image to Docker Hub
     runs-on: ubuntu-latest
